@@ -24,7 +24,9 @@ body{
     &label{
         color:aliceblue;
         filter: drop-shadow( .1rem .2rem .2rem black )
+    }
 
-    
+    &:is(input[type='text'], button) {
+        box-shadow: .1rem .2rem .2rem yellowgreen; 
     }
 }
