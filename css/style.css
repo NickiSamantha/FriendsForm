@@ -1,0 +1,30 @@
+*,
+*::after ,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    display:flex;
+    justify-content: center;
+    margin-block: 1rem; 
+}
+
+.wrapper{
+    width:20rem;
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    gap: .2rem;
+    background-image: linear-gradient(to bottom, pink, purple);
+    padding-block: .2rem;
+
+    &label{
+        color:aliceblue;
+        filter: drop-shadow( .1rem .2rem .2rem black )
+
+    
+    }
+}
